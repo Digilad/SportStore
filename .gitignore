@@ -1,0 +1,5 @@
+SportStore/bin
+SportStore/obj
+.vs
+SportStore.Tests/bin
+SportStore.Tests/obj
