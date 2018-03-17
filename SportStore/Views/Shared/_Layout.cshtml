@@ -12,7 +12,7 @@
     </div>
     <div class="row panel">
         <div id="categories" class="col-xs-3">
-            Put something useful here later
+            @await  Component.InvokeAsync("NavigationMenu")
         </div>
         <div class="col-xs-8">
             @RenderBody()
