@@ -3,11 +3,20 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <title>Sport store</title>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">SPORT STORE</a>
+    </div>
+    <div class="row panel">
+        <div id="categories" class="col-xs-3">
+            Put something useful here later
+        </div>
+        <div class="col-xs-8">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>

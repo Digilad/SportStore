@@ -1,5 +1,7 @@
 SportStore/bin
 SportStore/obj
+SportStore/bower_components
+SportStore/wwwroot/lib
 .vs
 SportStore.Tests/bin
 SportStore.Tests/obj
