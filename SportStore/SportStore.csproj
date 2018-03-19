@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".bowerrc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".bowerrc" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
