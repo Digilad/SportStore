@@ -17,7 +17,10 @@
 </head>
 <body class="panel panel-default">
     <div class="panel-heading">
-        <h4>@ViewBag.title</h4>
+        <h4>
+        @ViewBag.title
+        <a class="btn btn-sm btn-primary pull-right" asp-action="Logout" asp-controller="Account">Log out</a>
+        </h4>
     </div>
     <div class="panel-body">
         @if (TempData["message"] != null)
